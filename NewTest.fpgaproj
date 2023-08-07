@@ -1,0 +1,8 @@
+{
+  "Include": [
+    "**"
+  ],
+  "Exclude": [
+    "*.fpgaproj"
+  ]
+}

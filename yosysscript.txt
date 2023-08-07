@@ -1,0 +1,2 @@
+yosys -p "hierarchy -auto-top; proc; opt; memory -nomap; wreduce -memx; opt_clean" -o test.json SuperProj.v
+netlistsvg teroshdl_yosys_output.json --skin default.svg 
